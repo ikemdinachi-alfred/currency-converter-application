@@ -1,0 +1,109 @@
+body {
+     font-family: Arial, sans-serif;
+     background-image: url('/currency\ converter.jpg'); /* Add your attractive currency image URL here */
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     color: white;
+ }
+ 
+ .container {
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     background: rgba(0, 0, 0, 0.8);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     text-align: center;
+     width: 70vw;
+     height: 70vh;
+ }
+ 
+ input, select {
+     padding: 10px;
+     margin: 30px 15px;
+     border: none;
+     border-radius: 5px;
+     width: 18vw;
+     height: 13vh;
+     font-size: 40px;
+ }
+ 
+ .container1 > h1 {
+     font-size: 50px;
+     color: #007bff;  
+     background-color: aliceblue;
+ }
+ 
+ .container > h3 {
+     font-size: 30px;  
+ }
+ 
+ .ok button {
+     padding: 20px 60px;
+ }
+ 
+ button {
+     padding: 20px 65px;
+     margin-top: 30px;
+     border: none;
+     border-radius: 10px;
+     background-color: #007bff;
+     color: white;
+     cursor: pointer;
+     font-size: 20px;
+ }
+ 
+ button:hover {
+     background-color: #66aef6;
+ }
+ 
+ .conversionResult {
+     background-color: rgb(1, 11, 20);
+     margin-top: 20px;
+     font-size: 40px;
+     color: #ffffff;
+     border-radius: 10px;
+     width: 50vw;
+     height: 10vh;
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 0 auto;
+     border: 2px solid whitesmoke;
+ }
+ 
+ /* Responsive Styles */
+ @media (max-width: 600px) {
+     .container {
+         width: 90vw;
+         height: auto;
+         padding: 10px;
+     }
+     
+     input, select {
+         width: 80vw;
+         height: auto;
+         font-size: 20px;
+     }
+     
+     button {
+         width: 80vw;
+         padding: 10px;
+         font-size: 18px;
+     }
+ 
+     .conversionResult {
+         width: 80vw;
+         height: auto;
+         font-size: 20px;
+         padding: 10px;
+     }
+ }
+ 
